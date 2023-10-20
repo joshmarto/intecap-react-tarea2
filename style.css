@@ -1,0 +1,47 @@
+#btn-on {
+    animation-duration: 350ms;
+    animation-name: show;
+}
+
+#btn-off {
+    animation-duration: 350ms;
+    animation-name: show;
+}
+
+#light-on {
+    animation-duration: 350ms;
+    animation-name: show;
+}
+
+#light-off {
+    animation-duration: 350ms;
+    animation-name: show;
+}
+
+.bombilla {
+    margin-bottom: 2rem;
+}
+
+.btn {
+    width: 6em;
+    height: auto;
+}
+
+.main-container {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+
+@keyframes show {
+    from {
+        display: none;
+        opacity: 0;
+    }
+
+    to {
+        display: block;
+        opacity: 1;
+    }
+}
